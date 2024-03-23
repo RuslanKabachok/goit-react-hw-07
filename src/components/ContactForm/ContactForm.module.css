@@ -1,0 +1,21 @@
+.form {
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  width: 370px;
+  padding: 20px;
+  margin-left: 15px;
+}
+
+.field {
+  margin-bottom: 8px;
+}
+
+.btn {
+  padding: 5px;
+  align-self: center;
+}
+
+.message {
+  color: red;
+}
