@@ -1,5 +1,5 @@
 import { useDispatch } from 'react-redux';
-import { addContact } from '../../redux/contactsSlice';
+import { addContact } from '../../redux/contactsOps';
 import { nanoid } from 'nanoid';
 import { Formik, Form, Field, ErrorMessage } from 'formik';
 import { useId } from 'react';
